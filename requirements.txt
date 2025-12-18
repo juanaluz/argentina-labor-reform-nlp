@@ -1,0 +1,5 @@
+pandas
+feedparser
+newspaper3k
+lxml
+requests
