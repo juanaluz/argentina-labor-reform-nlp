@@ -41,15 +41,28 @@ To reproduce this analysis locally:
 1.  **Clone the repository:**
     ```bash
     git clone [https://github.com/juanaluz/argentina-labor-reform-nlp.git](https://github.com/juanaluz/argentina-labor-reform-nlp.git)
+    cd argentina-labor-reform-nlp
     ```
-2.  **Run the scraper (Python):**
+
+2.  **Install dependencies:**
+    * **Python:**
+        ```bash
+        pip install -r requirements.txt
+        ```
+    * **R:**
+        Run the helper script to install required packages (Tidyverse, etc.):
+        ```bash
+        Rscript install_packages.R
+        ```
+
+3.  **Run the scraper (Python):**
+    This will generate the dataset `dataset_reforma_final.csv`.
     ```bash
-    pip install -r requirements.txt
     python scraper_reforma.py
     ```
-3.  **Run the analysis (R):**
-    Open `analisis_reforma.R` in RStudio and execute the script.
 
+4.  **Run the analysis (R):**
+    Open `analisis_reforma.R` in RStudio and execute the script to generate the plots.
 ---
 By **Juana Luz Carbajal** 
 
