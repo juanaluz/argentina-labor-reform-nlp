@@ -205,3 +205,22 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+*$py.class
+.venv/
+env/
+venv/
+*.egg-info/
+
+# --- R ---
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# --- VS Code & Windows ---
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
